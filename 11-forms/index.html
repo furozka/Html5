@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formlar</title>
+</head>
+
+<body>
+    <form action="/Homa/Register">
+        <p>
+            Ad: <br><input type="text" placeholder="Adınızı girin" name="ad" required>
+        </p>
+        <p>
+            Soyad: <br><input type="text" placeholder="Soyadınızı girin" name="soyad">
+        </p>
+        <p>
+            Beni hatırla: <input type="checkbox" name="benihatirlar">
+        </p>
+        <p>
+            Cinsiyet: <br>
+            Erkek <input type="radio" name="Cinsiyet">
+            Kadın <input type="radio" name="Cinsiyet">
+        </p>
+        <p>
+            Hobiler: <br>
+            Sinema <input type="checkbox" name="hobi">
+            Spor <input type="checkbox" name="hobi">
+            kitap okumak <input type="checkbox" name="hobi">
+        </p>
+        <p>
+           Şehir: <br>
+            <select name="şehir" id="">
+                <option value="">İstanbul</option>
+                <option value="">Ankara</option>
+                <option value="">Amasya</option>
+            </select>
+        </p>
+        <p>
+            Eposta <input type="email" name="email" required>
+        </p>
+        <input type="submit" value="Kaydet">
+        <input type="reset">
+    </form>
+</body>
+
+</html>
